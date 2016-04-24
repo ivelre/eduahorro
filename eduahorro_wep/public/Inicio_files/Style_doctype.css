@@ -1,0 +1,1552 @@
+/* CCSTheme v 3.x */
+/* General */
+
+/* Colors */
+
+h1{
+  font-size: 26px;
+  font-family: Helvetica;
+}
+
+ul{
+  margin:0; padding:0;
+  margin-left: 5px;
+}
+
+li{
+ padding-top: 3px;
+ padding-bottom: 4px;
+}
+.PageBgColor {
+	background-color: #ffffff;
+	}
+
+.FormTitleBgColor {
+	background-color: #737373;
+	}
+
+.FormTitleFontColor {
+	color: #ffffff;
+	}
+
+.CaptionBgColor {
+	background-color: #d1d1d1;
+	}
+
+.CaptionFontColor {
+	color: #568392;
+	}
+
+.DataBgColor {
+	background-color: #f9f9f9;
+	}
+
+.AltDataBgColor {
+	background-color: #cfccae;
+	}
+
+.DataFontColor {
+	color: #476a77;
+	}
+
+.LinkColor {
+	color: #2626ff;
+	}
+
+.VisitedLinkColor {
+	color: #0f6767;
+	}
+
+.HoverLinkColor {
+	color: #5facc1;
+	}
+
+.ColorBgButton {
+	background-color: #737373;
+}
+
+.ColorFontButton {
+	color: #ffffff;
+}
+
+.ColorBgButtonPassive {
+	background-color: #b1b1b1;
+}
+
+.ColorFontButtonPassive {
+	color: #ffffff;
+}
+
+/* BEGIN Common */
+body { 
+color: #434343;
+	font-family: Helvetica; 
+	line-height: 21px;
+
+margin:0;
+padding:0;
+	}
+
+
+html>body {
+	font-family: Helvetica; 
+}
+
+html>body td, html>body th, html>body table {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body {
+	font-family: Helvetica; 
+}
+
+* html body td, * html body th, * html body table {
+	font-size: 14px;
+}
+/*end*/
+
+.text { 
+	color: #476a77
+	}
+
+a.menulink:link, a.menulink:visited { 
+	color: #2626ff;
+	}
+
+a.menulink:hover, a.menulink:active { 
+	color: #5facc1;
+	}
+
+
+a:link { 
+	/*color: #2626ff;*/
+	decoration: none;
+	}
+
+a:visited { 
+	/*color: #0f6767;*/
+	decoration: none;
+	}
+
+a:hover,a:active { 
+	color: #5facc1;
+	}
+
+form {
+	margin: 0px;
+	}
+
+h1	{
+	color: #0C3050;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+	}
+
+h2	{ 
+	color: #737373;	
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h3	{ 
+	color: #737373;
+	font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h4	{ 
+	color: #737373;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h5	{ 
+	color: #737373;
+	font-size: 95%; font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h6	{ 
+	color: #737373;
+	font-size: 80%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+th	{ 
+	font-family: Helvetica; 
+	}
+
+td { 
+	font-family: Helvetica; 
+	}
+
+/*input, textarea, select {
+	font-family: Helvetica; 
+	font-size: 14px;
+}
+
+html>body input, html>body select, html>body textarea {
+	font-family: Helvetica; 
+	font-size: inherit;
+}*/
+
+/* END Common */
+
+.Header {
+	width: 100%;
+	}
+
+.Header th { 
+	font-weight: bold; text-align: center !important;
+	padding: 3px;
+	background-color: #737373; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	
+	}
+
+
+html>body .Header th {
+	font-weight: bold; text-align: center !important;
+}
+
+
+/*ie6*/
+* html body .Header th {
+	 font-weight: bold; text-align: center !important;
+}
+/*end*/
+
+.Header a:link { 
+	color: #ffffff;
+	}
+
+.Header a:visited { 
+	color: #ffffff;
+	}
+
+.Header a:hover, .Caption a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeft { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRight { 
+	background-image: url('Images/HeaderRight.gif');
+	background-position: right top;
+	}
+
+.HeaderLeft img{
+	width: 12px;
+	}
+
+.HeaderRight img{
+	width: 12px;
+	}
+
+
+/* Grid Options */
+.Grid { 
+	border: solid 1px #d1d1d1; border-bottom: 0px;
+	width: 100%;
+	}
+
+.Caption th { 
+font-size: 14px;
+ text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1; color: #568392;
+	white-space: nowrap;
+	}
+
+.Caption td { 
+    font-size: 14px;
+	 text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1; color: #568392;
+	white-space: nowrap;
+	}
+
+
+html>body .Caption th, html>body .Caption td {
+	 text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .Caption th, * html body .Caption td {
+	 text-align: left; vertical-align: top;
+}
+/*end*/
+
+.Caption a:link { 
+	color: #568392;
+	}
+
+.Caption a:visited { 
+	color: #568392;
+	}
+
+.Caption a:hover, .Caption a:active { 
+	color: #5facc1;
+	}
+
+.Caption img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Caption input {
+	vertical-align: middle;
+	}
+
+.Row th { 
+	 font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+.Row td { 	
+	padding: 4px;
+	border-bottom: solid 1px #d1d1d1;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f9f9f9; 
+	color: #476a77;
+	}
+	
+
+
+
+
+
+caption.Row { 
+	
+	padding: 3px;
+	border: solid 1px #d1d1d1; border-bottom: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f9f9f9; 
+	color: #476a77;
+	}
+
+
+
+
+
+.Row a:link { 
+	color: #2626ff;
+	}
+
+.Row a:visited { 
+	color: #0f6767;
+	}
+
+.Row a:hover, .Row a:active { 
+	color: #5facc1;
+	}
+
+.Separator{
+	color: #737373;
+	}
+
+.Separator td{
+	height: 1px;
+	}
+
+
+.AltRow th { 
+	 font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+.AltRow td { 
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	vertical-align: top;
+	background-color: #cfccae; 
+	color: #476a77;
+	}
+
+
+
+
+
+.AltRow a:link { 
+	color: #2626ff;
+	}
+
+.AltRow a:visited { 
+	color: #0f6767;
+	}
+
+.AltRow a:hover, .AltRow a:active { 
+	color: #5facc1;
+	}
+
+.NoRecords td { 
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	background-color: #f9f9f9; 
+	color: #476a77;
+	vertical-align: top;
+	}
+
+.Footer td { 
+	font-size: 14px;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1; color: #568392;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+
+
+
+
+.Footer a:link { 
+	color: #2626ff;
+	}
+
+.Footer a:visited { 
+	color: #0f6767;
+	}
+
+.Footer a:hover, .Footer a:active { 
+	color: #5facc1;
+	}
+
+.Footer img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Footer input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.Record { 
+	border: solid 1px #d1d1d1; border-bottom: 0px;
+	width: 100%;
+	}
+
+.Error td { 
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f9f9f9; 
+	}
+
+
+
+
+
+.Controls th { 
+	 font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+.Controls td { 
+	font-size: 14px;	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	vertical-align: top;
+	background-color: #f9f9f9; 
+	color: #555555;
+	}
+	
+.Bottom td { 
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1; color: #568392;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+
+
+
+.Bottom a:link { 
+	color: #2626ff;
+	}
+
+.Bottom a:visited { 
+	color: #0f6767;
+	}
+
+.Bottom a:hover, .Caption a:active { 
+	color: #5facc1;
+	}
+
+.Bottom img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.Bottom input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaption th{
+	font-size: 14px;	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #cfccae; 
+	color: #476a77;
+	}
+
+.GroupCaption td{
+	font-size: 14px;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f9f9f9; 
+	color: #476a77;
+	}
+
+
+html>body .GroupCaption th, html>body .GroupCaption td {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .GroupCaption th, * html body .GroupCaption td {
+	font-size: 14px;
+}
+/*end*/
+
+.GroupCaption a:link {
+	color: #568392;
+	}
+
+.GroupCaption a:visited{
+	color: #568392;
+	}
+
+.GroupCaption a:hover, .GroupCaption a:active{
+	color: #5facc1;
+	}
+
+.GroupFooter td{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #d1d1d1; 
+	color: #476a77;
+	}
+
+
+html>body .GroupFooter td {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .GroupFooter td {
+	font-size: 14px;
+}
+/*end*/
+
+.GroupFooter a:link {
+	color: #2626ff;
+	}
+
+.GroupFooter a:visited{
+	color: #0f6767;
+	}
+
+.GroupFooter a:hover,.GroupFooter a:active{
+	color: #5facc1;
+	}
+
+.GroupFooter img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooter input {
+	margin: 2px;
+	vertical-align: middle;
+	}
+
+.SubTotal td{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #cfccae; 
+	color: #476a77;
+	border-bottom: 2px solid #737373;
+	}
+
+
+html>body .SubTotal td {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .SubTotal td {
+	font-size: 14px;
+}
+/*end*/
+
+.SubTotal a:link {
+	color: #2626ff;
+	}
+
+.SubTotal a:visited{
+	color: #0f6767;
+	}
+
+.SubTotal a:hover, .SubTotal a:active{
+	color: #5facc1;
+	}
+
+.Total td{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #cfccae; 
+	color: #476a77;
+	}
+
+
+html>body .Total td {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .Total td {
+	font-size: 14px;
+}
+/*end*/
+
+.Total a:link {
+	color: #2626ff;
+	}
+
+.Total a:visited{
+	color: #0f6767;
+	}
+
+.Total a:hover, .Total a:active{
+	color: #5facc1;
+	}
+
+/* Form Options */
+.Button { 
+	background-color: #cfccae; color: #568392; border: solid 1px #737373; padding: 2px; font-weight: bold; font-family: Tahoma; font-size: 10px; font-weight: bold;
+	}
+
+/* Calendar */
+
+.Calendar { 
+	border: solid 1px #d1d1d1;
+	width: 100%;
+	}
+
+.CalendarWeekdayName{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #cfccae; 
+	color: #476a77;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekdayName {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekdayName {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarWeekdayName a:link {
+	color: #2626ff;
+	}
+
+.CalendarWeekdayName a:visited{
+	color: #0f6767;
+	}
+
+.CalendarWeekdayName a:hover, .CalendarWeekdayName a:active{
+	color: #5facc1;
+	}
+
+.CalendarWeekendName{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #cfccae;	
+	color: #476a77;
+	font-weight: normal;
+	}
+
+
+html>body .CalendarWeekendName {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendName {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarWeekendName a:link {
+	color: #568392;
+	}
+
+.CalendarWeekendName a:visited{
+	color: #568392;
+	}
+
+.CalendarWeekendName a:link, .CalendarWeekendName a:visited{
+	color: #5facc1;
+	}
+
+/* Calendar Day */
+.CalendarDay{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center;
+	background-color: #f9f9f9;	
+	color: #476a77;
+	}
+
+
+html>body .CalendarDay {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarDay {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarDay a:link {
+	color: #2626ff;
+	}
+
+.CalendarDay a:visited{
+	color: #0f6767;
+	}
+
+.CalendarDay a:hover, .CalendarDay a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekend{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center;
+	background-color: #cfccae;	
+	color: #476a77;
+	}
+
+
+html>body .CalendarWeekend {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekend {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarWeekend a:link {
+	color: #2626ff;
+	}
+
+.CalendarWeekend a:visited{
+	color: #0f6767;
+	}
+
+.CalendarWeekend a:hover, .CalendarWeekend a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Today */
+.CalendarToday {
+	
+	padding: 1px;
+	border: 2px solid #d1d1d1; border-top: 1px solid #d1d1d1;
+	text-align: center;
+	background-color: #f9f9f9;	
+	color: #476a77;
+	}
+
+
+html>body .CalendarToday {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarToday {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarToday a:link {
+	color: #2626ff;
+	}
+
+.CalendarToday a:visited{
+	color: #0f6767;
+	}
+
+.CalendarToday a:hover, .CalendarToday a:active {
+	color: #5facc1;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendToday {
+	
+	padding: 1px;
+	border: 2px solid #d1d1d1; border-top: 1px solid #d1d1d1;
+	text-align: center;
+	background-color: #cfccae;	
+	color: #476a77;
+	}
+
+
+html>body .CalendarWeekendToday {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarWeekendToday {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarWeekendToday a:link {
+	color: #2626ff;
+	}
+
+.CalendarWeekendToday a:visited{
+	color: #0f6767;
+	}
+
+.CalendarWeekendToday a:hover, .CalendarWeekendToday a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDay{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center;
+	background-color: #f9f9f9;	
+	color: #737373;
+	}
+
+
+html>body .CalendarOtherMonthDay {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthDay {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarOtherMonthDay a:link {
+	color: #737373;
+	}
+
+.CalendarOtherMonthDay a:visited{
+	color: #737373;
+	}
+
+.CalendarOtherMonthDay a:hover, .CalendarOtherMonthDay a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthToday {
+	
+	padding: 1px;
+	border: 2px solid #d1d1d1; border-top: 1px solid #d1d1d1;
+	text-align: center;
+	background-color: #f9f9f9;	
+	color: #737373;
+	}
+
+
+html>body .CalendarOtherMonthToday {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthToday {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarOtherMonthToday a:link {
+	color: #737373;
+	}
+
+.CalendarOtherMonthToday a:visited{
+	color: #737373;
+	}
+
+.CalendarOtherMonthToday a:hover,.CalendarOtherMonthToday a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekend {
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: center;
+	background-color: #cfccae;	
+	color: #737373;
+	}
+
+
+html>body .CalendarOtherMonthWeekend {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekend {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarOtherMonthWeekend a:link {
+	color: #737373;
+	}
+
+.CalendarOtherMonthWeekend a:visited{
+	color: #737373;
+	}
+
+.CalendarOtherMonthWeekend a:hover, .CalendarOtherMonthWeekend a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendToday {
+	
+	padding: 1px;
+	border: 2px solid #d1d1d1; border-top: 1px solid #d1d1d1;
+	text-align: center;
+	color: #737373;
+	background-color: #cfccae;	
+	}
+	
+
+html>body .CalendarOtherMonthWeekendToday {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarOtherMonthWeekendToday {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarOtherMonthWeekendToday a:link {
+	color: #737373;
+	}
+
+.CalendarOtherMonthWeekendToday a:visited{
+	color: #737373;
+	}
+
+.CalendarOtherMonthWeekendToday a:hover, .CalendarOtherMonthWeekendToday a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDay{
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1;
+	color: #568392;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+
+html>body .CalendarSelectedDay {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarSelectedDay {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarSelectedDay a:link {
+	color: #568392;
+	}
+
+.CalendarSelectedDay a:visited{
+	color: #568392;
+	}
+
+.CalendarSelectedDay a:hover, .CalendarSelectedDay a:active{
+	color: #5facc1;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigator {
+	
+	padding: 3px;
+	background-color: #d1d1d1; color: #568392;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #476a77;
+	}
+
+
+html>body .CalendarNavigator {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigator {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarNavigator a:link {
+	color: #2626ff;
+	}
+
+.CalendarNavigator a:visited{
+	color: #0f6767;
+	}
+
+.CalendarNavigator a:hover, .CalendarNavigator a:active{
+	color: #5facc1;
+	}
+
+.CalendarNavigator img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+.CalendarNavigator td {
+	
+	}
+
+.CalendarNavigator th {
+	
+	}
+
+
+html>body .CalendarNavigator th, html>body .CalendarNavigator td {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarNavigator th, * html body .CalendarNavigator td {
+	font-size: 14px;
+}
+/*end*/
+
+/* Calendar Extra */
+.CalendarEvent{
+	
+	text-align: left;
+	}
+
+
+html>body .CalendarEvent {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .CalendarEvent {
+	font-size: 14px;
+}
+/*end*/
+
+.CalendarEvent a:link {
+	color: #2626ff;
+	}
+
+.CalendarEvent a:visited{
+	color: #0f6767;
+	}
+
+.CalendarEvent a:hover, .CalendarEvent a:active{
+	color: #5facc1;
+	}
+
+/* Changes for Section508 */
+table tr td strong {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.th { 
+	font-family: Helvetica; 
+	font-weight: bold;
+}
+
+
+html>body .th {
+	font-size: 14px;
+}
+
+
+/*ie6*/
+* html body .th {
+	font-size: 14px;
+}
+/*end*/
+
+.Header .th { 
+	font-size: 14px; font-weight: bold; text-align: center !important;
+	padding: 3px;
+	background-color: #737373; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+}
+
+
+html>body .Header .th {
+	font-size: 130%; font-weight: bold; text-align: center !important;
+}
+
+
+/*ie6*/
+* html body .Header .th {
+	font-size: 130%; font-weight: bold; text-align: center !important;
+}
+/*end*/
+
+.Caption .th { 
+	 text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #d1d1d1; color: #568392;
+	white-space: nowrap;
+}
+
+
+html>body .Caption .th {
+	font-size: 14px; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .Caption .th {
+	font-size: 14px; text-align: left; vertical-align: top;
+}
+/*end*/
+
+.Row .th { 
+ font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+}
+
+.AltRow .th { 
+	 font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+}
+
+.Controls .th { 
+	 font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	background-color: #f9f9f9; color: #476a77;
+	white-space: nowrap;
+	color: #476a77;
+}
+
+.GroupCaption .th {
+	
+	padding: 3px;
+	border-bottom: solid 1px #d1d1d1;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #cfccae; 
+	color: #476a77;
+}
+
+
+html>body .GroupCaption .th {
+	font-size: 14px;
+}
+
+html>body .Row .th, html>body .AltRow .th, html>body .Controls .th {
+	font-size: 14px; font-weight: normal; text-align: left; vertical-align: top;
+}
+
+
+/*ie6*/
+* html body .GroupCaption .th {
+	font-size: 14px;
+}
+
+* html body .Row .th, * html body .AltRow .th, * html body .Controls .th {
+	font-size: 14px; font-weight: normal; text-align: left; vertical-align: top;
+}
+/*end*/
+
+/* Class for Application Builder Menu */
+.simpleMenu td {
+	
+}
+
+
+html>body .simpleMenu td {
+	font-size: 14px;
+} 
+
+
+/*ie6*/
+* html body .simpleMenu td {
+	font-size: 14px;
+} 
+/*end*/
+
+
+table{
+  margin: 0 auto;
+}
+
+.Programa, .Becas{
+  width: 840px;
+}
+
+.Programa h1, .Becas h1{
+  margin-top: 15px;
+  color: #683358;
+  margin-bottom: 20px;
+}
+
+.Becas h1{
+  color:#14742E; 
+}
+#uno{
+  background: url("http://www2.educafin.com/archivos/chicoslateral.png") bottom center no-repeat;
+  min-height: 378px;
+}
+
+#dos{
+  background: url("http://www2.educafin.com/archivos/chicapensando.png") bottom left no-repeat;
+  min-height: 431px;
+
+}
+
+#uno h1{
+ margin-bottom: 35px;
+}
+#unodescribe{
+  width: 80%;
+  padding-left: 15px;
+}
+
+#dosdescribe{
+  width: 68%;
+  margin-left: 270px;
+}
+
+#beneficios, #caja_observa, #caja_detalle{  
+	margin-top: 20px;
+ 	background: #e1f5ff;
+   border: 1px solid #9bddff;
+   padding: 10px;
+   color: #054873;
+   border-radius: 10px;
+	-khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;	
+  margin-bottom: 20px;
+  margin-left: 1%;
+}
+
+#prequisitos{
+  width: 65%;
+  float: left;
+  margin-right: 15px;
+}
+
+#observa{
+  width: 263px;
+  float: left;
+  margin-top: 80px;
+}
+
+.Becas{
+  width: 840px;
+}
+
+#unob{
+  background: url("http://www2.educafin.com/archivos/img-becas.jpg") bottom right no-repeat;
+  min-height: 455px;
+}
+
+#unob h1{
+  margin-top: 35px;
+}
+#pdescripcion{
+  width: 43%;
+}
+
+#pi3{
+  margin-top: 35px;
+}
+
+input, select, textarea{
+ border: 1px solid #cccccc;
+}
+
+
+#convoca{
+  width: 850px;
+  margin:0 auto;
+}
+#convoca h1{
+  margin-left: 25px;
+  color: #511a5d;
+}
+#convoca h3{
+  color: #2186F7;
+  font-style: normal;
+  font-size: 20px;  
+  float: right;
+  margin-right: 80px;
+}
+#convoca1{
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+}
+#convoca1{
+  min-height: 400px;
+  width: 850px;
+  background: url("http://www2.educafin.com/archivos/monos1.png") bottom center no-repeat;   
+}
+
+#convoca2{
+  margin-top: 30px;
+  min-height: 400px;
+  width: 850px;
+  background: url("http://www2.educafin.com/archivos/chico-libreta.jpg") bottom right no-repeat;     
+}
+
+
+
+#convoca4{
+  margin: 0 auto;
+  height: auto;
+  width: 650px;
+  margin-top: 30px;
+  background: url("http://www2.educafin.com/archivos/placachicos.jpg") top center no-repeat; 
+      
+}
+
+#c1d{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#c2d{
+  width: 572px;
+  margin-left: 25px;
+}
+
+#c3d{
+  margin-left: 130px;
+  margin-right: 70px;
+}
+#c4d{
+  margin-top: 220px;  
+}
+
+#gris{
+  margin-top: -120px;
+  height: 160px;
+  background: #e8e8e8;
+}
+
+#observac{
+  width: 650px;
+  margin:0 auto;
+  color: #511a5d;
+}
+
+
+#convoca3{
+  padding-top:25px;
+  margin-top: 40px;
+  min-height: 575px;
+  margin-left: 0;
+  background: #e8e8e8 url("http://www2.educafin.com/archivos/nenasvertical.png") bottom left no-repeat;      
+}
+
+.calendario_proyectos{
+  padding: 10px;
+}
+
+.nota{
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #800000;
+}
+
+#detalle_proyecto, .calendario_proyectos{
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;	
+   border: 4px solid #0d4944;
+   margin-left: 20px;
+   margin-right: 20px;
+   height: auto; 
+   padding: 20px;  
+}
+
+#perfil{
+    background: url("http://www2.educafin.com/archivos/chico_caminando.jpg") bottom right no-repeat;
+  min-height: 400px;
+  padding-right: 160px;
+}
+#detalle_proyecto h1{
+	  color: #0D4944
+}
+
+#caja_detalle{
+  width: 95%;
+  height: auto;
+  float: left;
+}
+.izquierda{
+  width:50%;
+  height: auto;
+  float: left;
+}
+.derecha{
+  width:50%;
+  float: right;
+  height: auto;
+}
+
+#resultados_solicitud{
+  background: url("http://www2.educafin.com/archivos/muestraresultados.jpg") top center no-repeat;
+  height-min: 507px;
+  width: 100%;
+}
+
+#contenido_resultados{
+  padding-top: 200px;
+}
+
+.tabla_resultados{
+  margin-top: 5px;
+}

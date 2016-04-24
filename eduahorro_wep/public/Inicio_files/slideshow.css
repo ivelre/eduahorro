@@ -1,0 +1,17 @@
+#nsys_slideshow {
+	position: relative;
+}
+
+#nsys_slideshow_img1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+#nsys_slideshow_img2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
